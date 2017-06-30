@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		C7D705571F063EC10016BE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D705561F063EC10016BE2A /* main.m */; };
 		C7D7055A1F063EC10016BE2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D705591F063EC10016BE2A /* AppDelegate.m */; };
-		C7D7055D1F063EC10016BE2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7055C1F063EC10016BE2A /* ViewController.m */; };
-		C7D705601F063EC10016BE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D7055E1F063EC10016BE2A /* Main.storyboard */; };
+		C7D705601F063EC10016BE2A /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D7055E1F063EC10016BE2A /* home.storyboard */; };
 		C7D705621F063EC10016BE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D705611F063EC10016BE2A /* Assets.xcassets */; };
 		C7D705651F063EC10016BE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D705631F063EC10016BE2A /* LaunchScreen.storyboard */; };
 		C7D705701F063EC10016BE2A /* LikeInkeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7056F1F063EC10016BE2A /* LikeInkeAppTests.m */; };
 		C7D7057B1F063EC10016BE2A /* LikeInkeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7057A1F063EC10016BE2A /* LikeInkeAppUITests.m */; };
+		C7D7058D1F0643A10016BE2A /* YKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7058C1F0643A10016BE2A /* YKTabBarController.m */; };
+		C7D705901F0643FF0016BE2A /* YKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7058F1F0643FF0016BE2A /* YKNavigationController.m */; };
+		C7D705951F06469C0016BE2A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D705941F06469C0016BE2A /* MainViewController.m */; };
+		C7D705981F064AA60016BE2A /* YKLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D705971F064AA60016BE2A /* YKLiveViewController.m */; };
+		C7D7059B1F064AB20016BE2A /* YKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7059A1F064AB20016BE2A /* YKMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,7 @@
 		C7D705561F063EC10016BE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7D705581F063EC10016BE2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7D705591F063EC10016BE2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7D7055B1F063EC10016BE2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7D7055C1F063EC10016BE2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C7D7055F1F063EC10016BE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7D7055F1F063EC10016BE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/home.storyboard; sourceTree = "<group>"; };
 		C7D705611F063EC10016BE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7D705641F063EC10016BE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7D705661F063EC10016BE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		C7D705761F063EC10016BE2A /* LikeInkeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeInkeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D7057A1F063EC10016BE2A /* LikeInkeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeInkeAppUITests.m; sourceTree = "<group>"; };
 		C7D7057C1F063EC10016BE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D7058B1F0643A10016BE2A /* YKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTabBarController.h; sourceTree = "<group>"; };
+		C7D7058C1F0643A10016BE2A /* YKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTabBarController.m; sourceTree = "<group>"; };
+		C7D7058E1F0643FF0016BE2A /* YKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNavigationController.h; sourceTree = "<group>"; };
+		C7D7058F1F0643FF0016BE2A /* YKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNavigationController.m; sourceTree = "<group>"; };
+		C7D705931F06469C0016BE2A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C7D705941F06469C0016BE2A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C7D705961F064AA60016BE2A /* YKLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLiveViewController.h; sourceTree = "<group>"; };
+		C7D705971F064AA60016BE2A /* YKLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLiveViewController.m; sourceTree = "<group>"; };
+		C7D705991F064AB20016BE2A /* YKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMeViewController.h; sourceTree = "<group>"; };
+		C7D7059A1F064AB20016BE2A /* YKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +115,9 @@
 			children = (
 				C7D705581F063EC10016BE2A /* AppDelegate.h */,
 				C7D705591F063EC10016BE2A /* AppDelegate.m */,
-				C7D7055B1F063EC10016BE2A /* ViewController.h */,
-				C7D7055C1F063EC10016BE2A /* ViewController.m */,
-				C7D7055E1F063EC10016BE2A /* Main.storyboard */,
+				C7D705921F06467F0016BE2A /* Controller */,
+				C7D705911F0646690016BE2A /* Base */,
+				C7D7055E1F063EC10016BE2A /* home.storyboard */,
 				C7D705611F063EC10016BE2A /* Assets.xcassets */,
 				C7D705631F063EC10016BE2A /* LaunchScreen.storyboard */,
 				C7D705661F063EC10016BE2A /* Info.plist */,
@@ -138,6 +150,30 @@
 				C7D7057C1F063EC10016BE2A /* Info.plist */,
 			);
 			path = LikeInkeAppUITests;
+			sourceTree = "<group>";
+		};
+		C7D705911F0646690016BE2A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C7D7058B1F0643A10016BE2A /* YKTabBarController.h */,
+				C7D7058C1F0643A10016BE2A /* YKTabBarController.m */,
+				C7D7058E1F0643FF0016BE2A /* YKNavigationController.h */,
+				C7D7058F1F0643FF0016BE2A /* YKNavigationController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C7D705921F06467F0016BE2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7D705931F06469C0016BE2A /* MainViewController.h */,
+				C7D705941F06469C0016BE2A /* MainViewController.m */,
+				C7D705961F064AA60016BE2A /* YKLiveViewController.h */,
+				C7D705971F064AA60016BE2A /* YKLiveViewController.m */,
+				C7D705991F064AB20016BE2A /* YKMeViewController.h */,
+				C7D7059A1F064AB20016BE2A /* YKMeViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +287,7 @@
 			files = (
 				C7D705651F063EC10016BE2A /* LaunchScreen.storyboard in Resources */,
 				C7D705621F063EC10016BE2A /* Assets.xcassets in Resources */,
-				C7D705601F063EC10016BE2A /* Main.storyboard in Resources */,
+				C7D705601F063EC10016BE2A /* home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D7055D1F063EC10016BE2A /* ViewController.m in Sources */,
+				C7D705951F06469C0016BE2A /* MainViewController.m in Sources */,
 				C7D7055A1F063EC10016BE2A /* AppDelegate.m in Sources */,
+				C7D7059B1F064AB20016BE2A /* YKMeViewController.m in Sources */,
+				C7D705901F0643FF0016BE2A /* YKNavigationController.m in Sources */,
 				C7D705571F063EC10016BE2A /* main.m in Sources */,
+				C7D705981F064AA60016BE2A /* YKLiveViewController.m in Sources */,
+				C7D7058D1F0643A10016BE2A /* YKTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +354,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7D7055E1F063EC10016BE2A /* Main.storyboard */ = {
+		C7D7055E1F063EC10016BE2A /* home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C7D7055F1F063EC10016BE2A /* Base */,
 			);
-			name = Main.storyboard;
+			name = home.storyboard;
 			sourceTree = "<group>";
 		};
 		C7D705631F063EC10016BE2A /* LaunchScreen.storyboard */ = {
@@ -429,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 256463TRD5;
 				INFOPLIST_FILE = LikeInkeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihangmei.LikeInkeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LikeInkeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ihangmei.LikeInkeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +561,7 @@
 				C7D705811F063EC10016BE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D705821F063EC10016BE2A /* Build configuration list for PBXNativeTarget "LikeInkeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +570,7 @@
 				C7D705841F063EC10016BE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D705851F063EC10016BE2A /* Build configuration list for PBXNativeTarget "LikeInkeAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +579,7 @@
 				C7D705871F063EC10016BE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
