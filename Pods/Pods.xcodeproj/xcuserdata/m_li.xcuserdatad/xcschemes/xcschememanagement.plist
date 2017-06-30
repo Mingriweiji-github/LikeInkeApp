@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LFLiveKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,22 +37,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>346034D56A12F926E609E128E4C2FDE4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4CCF0D633E99AD6176C0F3DFD5B55E5C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5AA17C95E926B760FD08E0B487DAEFA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64DC475CF874FD2114D04361828655A9</key>
+		<key>9697C3622554FFB79E9B160887591937</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BAA6D4F72EAD669EB0F14FF15F0B8A12</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7506D193EE0DE7D8698F98A27429AB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CBD6C7577A00BC86DE3B34C8A8AA9D07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CCF0D633E99AD6176C0F3DFD5B55E5C"
+               BlueprintIdentifier = "9697C3622554FFB79E9B160887591937"
                BuildableName = "Pods_LikeInkeApp.framework"
                BlueprintName = "Pods-LikeInkeApp"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CCF0D633E99AD6176C0F3DFD5B55E5C"
+            BlueprintIdentifier = "9697C3622554FFB79E9B160887591937"
             BuildableName = "Pods_LikeInkeApp.framework"
             BlueprintName = "Pods-LikeInkeApp"
             ReferencedContainer = "container:Pods.xcodeproj">

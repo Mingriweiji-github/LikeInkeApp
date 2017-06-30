@@ -5,5 +5,6 @@ target ‘LikeInkeApp’ do
     pod 'MJExtension'
     pod 'WFUtils', '~> 1.1.3'
     pod 'SDWebImage'
+    pod 'LFLiveKit'
     use_frameworks!
 end
