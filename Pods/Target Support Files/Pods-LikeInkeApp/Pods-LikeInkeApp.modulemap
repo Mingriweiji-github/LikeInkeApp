@@ -1,0 +1,6 @@
+framework module Pods_LikeInkeApp {
+  umbrella header "Pods-LikeInkeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
